@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AfLogin">
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:scaleType="fitXY"
+    app:srcCompat="@drawable/one"
+    tools:layout_editor_absoluteX="188dp"
+    tools:layout_editor_absoluteY="181dp" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="7dp"
+    android:layout_marginTop="20dp"
+    android:fontFamily="cursive"
+    android:text="Evento"
+    android:textColor="@android:color/white"
+    android:textSize="40dp" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/textView2"
+    android:layout_marginStart="6dp"
+    android:layout_marginBottom="-2dp"
+    android:layout_toEndOf="@+id/textView2"
+    android:text="."
+    android:textColor="@color/colorAccent"
+    android:textSize="60sp" />
+
+<LinearLayout
+    android:layout_width="189dp"
+    android:layout_height="392dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="96dp"
+    android:layout_marginTop="157dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="record"
+        android:text="insert new records"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="event"
+        android:text="insert new events"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="kevent"
+        android:text="UPDATE EVENTS"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pasword"
+        android:text="change password"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="devent"
+        android:text="delete events"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="drecord"
+        android:text="delete record"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logo"
+        android:text="log out"
+        android:textColor="@android:color/holo_blue_light" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="-96dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+</RelativeLayout>

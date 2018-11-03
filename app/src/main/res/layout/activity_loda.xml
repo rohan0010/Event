@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loda">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/one" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="112dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lodaTextview"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="WELCOME    "
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="jojo"
+            android:text="SHOW ALL UPCOMING EVENTS" />
+
+        <LinearLayout
+            android:layout_width="229dp"
+            android:layout_height="81dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:text="SEARCH:"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/event"
+                android:layout_width="107dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="90dp"
+                android:background="@android:color/white"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="search"
+            android:text="SEARCH" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="logout"
+            android:text="LOGOUT" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"></item>
+    <item android:title="Events"
+        android:id="@+id/events"></item>
+    <item android:title="About us"
+        android:id="@+id/aboutus"></item>
+    <item android:title="Contact"
+        android:id="@+id/contact"></item>
+    <item android:title="Admin"
+        android:id="@+id/admins"></item>
+    <item android:title="Student"
+        android:id="@+id/student"></item>
+</menu>
